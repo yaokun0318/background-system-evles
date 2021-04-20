@@ -1,0 +1,26 @@
+{
+  "name": "background-system-elves",
+  "version": "0.0.1",
+  "description": "Out of the box background system",
+  "main": "index.js",
+  "bin": {
+    "background-system-elves": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
+  },
+  "keywords": [
+    "background",
+    "system"
+  ],
+  "author": "yaokun0318",
+  "license": "ISC"
+}
